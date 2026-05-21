@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-links",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-21T06:09:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.durystasavingsprogram.com/",
+    "originPage": "DURYSTA Savings Program homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "teal",
+    "density": "compact",
+    "purpose": "quick-links",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "2 columns + heading + link-list each",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "resource link sections with multiple audiences",
+      "quick-links navigation panels",
+      "two-audience content splits (patients vs HCPs)"
+    ],
+    "notSuitableFor": [
+      "image-heavy side-by-side layouts",
+      "content comparison tables",
+      "single-column link lists"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-21T06:09:00.000Z"
+  }
+}

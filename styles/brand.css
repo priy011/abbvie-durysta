@@ -1,0 +1,127 @@
+@import url('/blocks/hero-savings/hero-savings.css');
+@import url('/blocks/columns-links/columns-links.css');
+
+:root {
+  --brand-font-family: 'Poppins', sans-serif;
+  --brand-heading-font-family: 'Poppins', sans-serif;
+  --brand-background-color: #fff;
+  --brand-text-color: #414042;
+  --brand-link-color: #071d49;
+  --brand-teal: #00806e;
+  --brand-teal-dark: #00857c;
+  --brand-yellow: #ffc60b;
+  --brand-orange: #c4622d;
+  --brand-heading-size-xxl: 35px;
+  --brand-heading-size-xl: 21px;
+  --brand-heading-size-l: 26px;
+  --brand-heading-size-m: 22px;
+  --brand-heading-size-s: 18px;
+  --brand-heading-size-xs: 16px;
+  --brand-nav-height: 80px;
+  --brand-body-font-size: 16px;
+  --brand-body-line-height: 26px;
+}
+
+body {
+  font-family: var(--brand-font-family);
+  color: var(--brand-text-color);
+  font-size: var(--brand-body-font-size);
+  line-height: var(--brand-body-line-height);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--brand-heading-font-family);
+}
+
+h1 {
+  font-size: var(--brand-heading-size-xxl);
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1px;
+  color: var(--brand-yellow);
+  margin: 0 0 15px;
+}
+
+h2 {
+  font-size: var(--brand-heading-size-xl);
+  font-weight: 600;
+  line-height: 32px;
+  color: #fff;
+}
+
+h3 {
+  font-size: var(--brand-heading-size-l);
+  font-weight: 700;
+  line-height: 39px;
+  color: var(--brand-teal);
+}
+
+h4 {
+  font-size: var(--brand-heading-size-m);
+  font-weight: 700;
+  line-height: 33px;
+  color: var(--brand-yellow);
+}
+
+main p {
+  font-size: var(--brand-body-font-size);
+  line-height: var(--brand-body-line-height);
+  color: var(--brand-text-color);
+  margin: 16px 0 0;
+}
+
+main a:any-link {
+  color: var(--brand-link-color);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+main a:hover {
+  color: var(--brand-teal);
+}
+
+main ul {
+  padding: 0 0 0 24px;
+  list-style-type: none;
+}
+
+main li {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+main .button-container {
+  display: inline;
+}
+
+main a.button:any-link {
+  background: none;
+  border: none;
+  border-radius: 0;
+  color: var(--brand-link-color);
+  font-size: inherit;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  text-decoration: underline;
+  white-space: normal;
+}
+
+/* Section: teal background */
+main .section.teal {
+  background-color: var(--brand-teal-dark);
+  margin: 0;
+  padding: 40px 0;
+}
+
+main .section.teal h4 {
+  color: var(--brand-yellow);
+}
+
+main .section.teal a:any-link {
+  color: #fff;
+}
+
+main .section.teal li {
+  color: #fff;
+}

@@ -1,0 +1,77 @@
+main > .columns-links.section {
+  background-color: var(--brand-teal-dark, #00857c);
+  margin: 0;
+  padding: 0;
+}
+
+main > .columns-links.section > div {
+  max-width: unset;
+  padding: 40px 24px;
+}
+
+main > .columns-links.section > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main > .columns-links.section > div > div > div {
+  flex: 1;
+}
+
+main > .columns-links.section h4 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 33px;
+  color: var(--brand-yellow, #ffc60b);
+  margin: 0 0 16px;
+}
+
+main > .columns-links.section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+main > .columns-links.section li {
+  font-size: 15px;
+  line-height: 22px;
+  color: #fff;
+  margin-bottom: 14px;
+  padding-left: 20px;
+  position: relative;
+}
+
+main > .columns-links.section li::before {
+  content: '\203A';
+  position: absolute;
+  left: 0;
+  font-size: 20px;
+  line-height: 22px;
+  color: var(--brand-yellow, #ffc60b);
+  font-weight: 700;
+}
+
+main > .columns-links.section a:any-link {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+main > .columns-links.section a:hover {
+  color: var(--brand-yellow, #ffc60b);
+}
+
+@media (width >= 900px) {
+  main > .columns-links.section > div {
+    padding: 50px 32px;
+  }
+
+  main > .columns-links.section > div > div {
+    flex-direction: row;
+    gap: 48px;
+  }
+}

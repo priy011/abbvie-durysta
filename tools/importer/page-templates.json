@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "savings-program-homepage",
+      "urls": [
+        "https://www.durystasavingsprogram.com/"
+      ],
+      "description": "Durysta Savings Program homepage with program information, eligibility details, and enrollment steps",
+      "blocks": [
+        {
+          "name": "hero-savings",
+          "instances": [
+            ".durysta-hero"
+          ]
+        },
+        {
+          "name": "columns-links",
+          "instances": [
+            ".durysta-quick-links"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero",
+          "selector": ".image-text-v2.parbase",
+          "style": null,
+          "blocks": [
+            "hero-savings"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Eligibility and Terms",
+          "selector": ".abbv-row-container.durysta-main-content",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".abbv-title h3",
+            ".durysta-eligibility",
+            ".durysta-terms"
+          ]
+        },
+        {
+          "id": "section-3",
+          "name": "Quick Links",
+          "selector": ".columns.parbase:has(.durysta-quick-links)",
+          "style": "teal",
+          "blocks": [
+            "columns-links"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "Important Safety Information",
+          "selector": ".abbv-inline-use-isi",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "#isi",
+            ".bg-color__concreteGray"
+          ]
+        }
+      ]
+    }
+  ]
+}
