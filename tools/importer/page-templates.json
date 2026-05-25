@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "projectType": "doc"
+  },
+  "templates": [
+    {
+      "name": "savings-program-landing",
+      "urls": [
+        "https://www.durystasavingsprogram.com/"
+      ],
+      "description": "Durysta savings program landing page with eligibility information, savings card details, and enrollment steps",
+      "blocks": [
+        {
+          "name": "hero-savings",
+          "instances": [
+            ".durysta-hero"
+          ]
+        },
+        {
+          "name": "columns-quicklinks",
+          "instances": [
+            ".durysta-quick-links"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero",
+          "selector": ".image-text-v2.parbase",
+          "style": null,
+          "blocks": [
+            "hero-savings"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Main Content - Eligibility and Terms",
+          "selector": ".durysta-main-content",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".abbv-title h3",
+            ".durysta-eligibility",
+            ".durysta-terms"
+          ]
+        },
+        {
+          "id": "section-3",
+          "name": "Quick Links",
+          "selector": ".durysta-quick-links",
+          "style": "teal",
+          "blocks": [
+            "columns-quicklinks"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "Important Safety Information",
+          "selector": ".abbv-inline-safety",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "#isi"
+          ]
+        }
+      ]
+    }
+  ]
+}

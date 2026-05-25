@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-savings",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-05-25T05:23:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.durystasavingsprogram.com/",
+    "originPage": "pharmaceutical savings program landing page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "teal",
+    "density": "minimal",
+    "purpose": "savings-program-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "heading + subheading",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "pharmaceutical savings program pages",
+      "patient enrollment pages",
+      "healthcare benefit landing pages"
+    ],
+    "notSuitableFor": [
+      "pages requiring CTA buttons in hero",
+      "pages with multiple hero images or carousels",
+      "text-only hero sections"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-25T05:23:00.000Z"
+  }
+}

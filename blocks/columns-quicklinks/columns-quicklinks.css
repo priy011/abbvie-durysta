@@ -1,0 +1,158 @@
+/* Block: columns-quicklinks */
+
+/* Two-column quicklinks cards with colored backgrounds and arrow bullets */
+
+.columns-quicklinks > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.columns-quicklinks > div > div {
+  border-radius: 10px;
+  padding: 40px 30px;
+}
+
+/* Cell 1 - Teal card (For Patients) */
+.columns-quicklinks > div > div:first-child {
+  background-color: var(--brand-teal);
+  background-image: linear-gradient(306.26deg, rgb(255 198 11 / 20%) 0, rgb(255 198 11 / 0%) 99.53%);
+}
+
+/* Cell 2 - Gold card (For HCPs) */
+.columns-quicklinks > div > div:last-child {
+  background-color: var(--brand-gold);
+  background-image: linear-gradient(306.26deg, rgb(0 128 110 / 20%) 0, rgb(0 128 110 / 0%) 99.53%);
+}
+
+/* Headings */
+.columns-quicklinks h4 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: var(--heading-font-family);
+  line-height: 33px;
+  margin: 0 0 16px;
+}
+
+.columns-quicklinks > div > div:first-child h4 {
+  color: var(--brand-gold);
+}
+
+.columns-quicklinks > div > div:last-child h4 {
+  color: var(--brand-teal);
+}
+
+/* Lists */
+.columns-quicklinks ul {
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+}
+
+.columns-quicklinks ul > li {
+  margin: 0 0 14px;
+  font-size: 18px;
+  line-height: 1.4;
+  padding-left: 24px;
+  position: relative;
+}
+
+/* Arrow bullets */
+.columns-quicklinks ul > li::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+
+.columns-quicklinks ul > li::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 4px;
+  top: 9px;
+  width: 0;
+  height: 0;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-left: 5px solid;
+}
+
+/* Cell 1 arrow colors (yellow/gold) */
+.columns-quicklinks > div > div:first-child ul > li::before {
+  border-color: var(--brand-gold);
+}
+
+.columns-quicklinks > div > div:first-child ul > li::after {
+  border-left-color: var(--brand-gold);
+}
+
+/* Cell 2 arrow colors (teal/green) */
+.columns-quicklinks > div > div:last-child ul > li::before {
+  border-color: var(--brand-teal);
+}
+
+.columns-quicklinks > div > div:last-child ul > li::after {
+  border-left-color: var(--brand-teal);
+}
+
+/* Links */
+.columns-quicklinks a:any-link {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* Cell 1 links - white */
+.columns-quicklinks > div > div:first-child a:any-link {
+  color: #fff;
+}
+
+/* Cell 2 links - dark blue */
+.columns-quicklinks > div > div:last-child a:any-link {
+  color: var(--link-color);
+}
+
+/* Override EDS button styling for links in this block */
+main .columns-quicklinks a.button:any-link {
+  background: none;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: underline;
+  white-space: normal;
+  display: inline;
+}
+
+main .columns-quicklinks > div > div:first-child a.button:any-link {
+  color: #fff;
+}
+
+main .columns-quicklinks > div > div:last-child a.button:any-link {
+  color: var(--link-color);
+}
+
+main .columns-quicklinks .button-container {
+  display: inline;
+}
+
+/* Desktop layout */
+@media (width >= 900px) {
+  .columns-quicklinks > div {
+    flex-direction: row;
+    gap: 27px;
+  }
+
+  .columns-quicklinks > div > div {
+    flex: 1;
+    padding: 76px 40px 76px 70px;
+  }
+}

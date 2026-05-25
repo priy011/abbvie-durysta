@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.durystasavingsprogram.com/",
+  "path": "index",
+  "timestamp": "2026-05-25T05:32:01.323Z",
+  "title": "Durysta Home",
+  "template": "savings-program-landing",
+  "blocks": [
+    "hero-savings",
+    "columns-quicklinks"
+  ]
+}

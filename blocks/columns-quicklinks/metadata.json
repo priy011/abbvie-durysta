@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-quicklinks",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-25T05:23:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.durystasavingsprogram.com/",
+    "originPage": "pharmaceutical savings program landing page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "teal",
+    "density": "minimal",
+    "purpose": "quick-links-navigation",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "2 columns with heading + link list each",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "resource link sections for different audiences",
+      "two-audience navigation panels (patients vs HCPs)",
+      "quick link sections with categorized links"
+    ],
+    "notSuitableFor": [
+      "image-heavy column layouts",
+      "complex multi-row column content",
+      "single column content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-25T05:23:00.000Z"
+  }
+}

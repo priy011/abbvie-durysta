@@ -1,0 +1,18 @@
+:root {
+  --heading-font-family: "Poppins", sans-serif;
+  --body-font-family: "Poppins", sans-serif;
+  --background-color: #fff;
+  --text-color: #414042;
+  --link-color: #071d49;
+  --link-hover-color: #00806e;
+  --brand-teal: #00806e;
+  --brand-gold: #ffc60b;
+  --section-padding: 40px 20px;
+  --nav-height: 80px;
+  --heading-size-xxl: 35px;
+  --heading-size-xl: 21px;
+  --heading-size-l: 26px;
+  --heading-size-m: 22px;
+  --heading-size-s: 18px;
+  --heading-size-xs: 16px;
+}
